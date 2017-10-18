@@ -1,0 +1,36 @@
+<html>
+<head>
+<script src="task1.js" defer></script>
+</head>
+<style>
+	.tak{
+		display:flex;
+		flex-direction:column;
+	}
+	.vot{
+		margin:0;
+	}
+		button{
+		color:green;
+		font-weight:bold;
+		height:30px;
+	}
+	#result
+	{
+		background-color:white;
+		border:1px solid red;
+		color:black;
+		width:30px;
+		height:30px;
+	}
+</style>
+<div class="vot">
+<input type="text" id="first"/><input type="text" id="second"/><input type="text" id="third"/>
+<p><input type="text" id="fourth"/><input type="text" id="fifth"/><input type="text" id="sixth"/></p>
+<p><input type="text" id="seventh"/><input type="text" id="eighth"/><input type="text" id="ninth"/></p>
+</div>
+<div class="tak"><button id="btn" onclick="getResult()">Find determinant</button>
+<P id="answer"></p>
+</div>
+</body>
+</html>
